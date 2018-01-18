@@ -106,6 +106,18 @@ h2 {
     margin: auto;
 }
 
+.faq:hover {
+    transition: all 0.25s;
+    transform: scale(1.05);
+}
+
+.faq {
+    max-width: 75em;
+    color: #e8e8e8;
+    text-align: center;
+    background-color: #2C2F33;
+    margin: auto;
+}
 p {
     color: #e8e8e8;
 }
