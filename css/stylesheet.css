@@ -2,7 +2,7 @@
     width: 100%;
     text-align: center;
     color: #fff;
-    font-family: 'neoSans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background-color: #2C2F33;
 }
 .navbar-item {
@@ -31,23 +31,6 @@
   margin-left: auto;
 }
 
-@font-face {
-    font-family: 'neoSans';
-    src: url('../fonts/neoSans.eot');
-    src: url('../fonts/neoSans.otf')
-}
-
-@font-face {
-    font-family: 'neoSansLight';
-    src: url('../fonts/neoSansLight.eot');
-    src: url('../fonts/neoSansLight.otf')
-}
-
-@font-face {
-    font-family: 'neoSansBold';
-    src: url('../fonts/neoSansBold.eot');
-    src: url('../fonts/neoSansBold.otf');
-}
 
 a {
     color: #fff;
@@ -69,24 +52,25 @@ body {
     background-color: #23272A;
     color: #000;
     text-align: center;
+    
 }
 
 .link {
     font-size: 3em;
-    font-family: 'neoSans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 h6 {
-    font-family: 'neoSansLight', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 p#link {
-    font-family: 'neoSans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 i {
     transition: all 0.25s;
-    font-family: 'neoSans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 i:hover {
@@ -118,22 +102,12 @@ h2 {
     margin: auto;
 }
 
-.smallbox:hover {
-    transition: all 0.25s;
-    transform: scale(1.05);
-}
-
 .mediumbox {
     max-width: 75em;
     color: #e8e8e8;
     text-align: center;
     background-color: #2C2F33;
     margin: auto;
-}
-
-.faq:hover {
-    transition: all 0.25s;
-    transform: scale(1.05);
 }
 
 .faq {
@@ -151,7 +125,6 @@ p {
     border-radius: 50%;
     display: inline-block;
     max-width: 150px;
-    border: 2px solid white
 }
 
 .logo2:hover {
