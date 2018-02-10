@@ -1,0 +1,264 @@
+.header {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #000030;
+}
+.navbar-item {
+	display: flex;
+}
+.navbar, .navbar-menu, .navbar-start, .navbar-end {
+	align-items: stretch;
+	display: flex;
+	padding: 0;
+}
+.navbar-menu {
+	flex-grow: 1;
+	flex-shrink: 0;
+}
+.navbar-start {
+	justify-content: flex-start;
+	margin-right: auto;
+}
+.navbar-end {
+	justify-content: flex-end;
+	margin-left: auto;
+}
+#twitter:hover {
+	color: #1da1f2;
+	transform: scale(1.20);
+}
+#youtube:hover {
+	color: #ff0000;
+	transform: scale(1.20);
+}
+#keybase:hover {
+	color: #FF6F21;
+	transform: scale(1.20);
+}
+#github:hover {
+	color: #4078c0;
+	transform: scale(1.20);
+}
+#discord:hover {
+	color: #7289DA;
+	transform: scale(1.20);
+}
+#youtube {
+	transition: all 0.3s;
+}
+#twitter {
+	transition: all 0.3s;
+}
+#github {
+	transition: all 0.3s;
+}
+#keybase {
+	transition: all 0.3s;
+}
+#discord {
+	transition: all 0.3s;
+}
+#nav2 {
+	transition: all 0.3s;
+}
+#nav2:hover {
+	transform: scale(1.20);
+}
+#av {
+	transition: all 0.3s;
+}
+#av:hover {
+	transform: scale(1.20);
+}
+#clicking {
+	transition: all 0.3s;
+}
+#clicking:hover {
+	transform: scale(1.20);
+}
+#anon {
+	transition: all 0.3s;
+}
+#anon:hover {
+	transform: scale(1.20);
+}
+#music {
+	transition: all 0.3s;
+}
+#music:hover {
+	transform: scale(1.20);
+}
+#channels {
+	transition: all 0.3s;
+}
+#channels:hover {
+	transform: scale(1.20);
+}
+#games {
+	transition: all 0.3s;
+}
+#games:hover {
+	transform: scale(1.20);
+}
+#games {
+	transition: all 0.3s;
+}
+#games:hover {
+	transform: scale(1.20);
+}
+#faqs {
+	transition: all 0.3s;
+}
+#faqs:hover {
+	transform: scale(1.20);
+}
+#devices {
+	transition: all 0.3s;
+}
+#devices:hover {
+	transform: scale(1.20);
+}
+#downloads {
+	transition: all 0.3s;
+}
+#downloads:hover {
+	transform: scale(1.20);
+}
+
+#hero-header {
+	background-image: url('./assets/images/header.png'); background-size: cover;
+}
+a {
+	color: #fff;
+}
+a:hover {
+	color: #fff;
+}
+div#container {
+	max-width: 75em;
+	margin: 0 auto;
+	color: #fff;
+}
+body {
+	height: 100%;
+	width: 100%;
+	background-color: #000018;
+	color: #fff;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	overflow-y: hidden
+}
+.link {
+	font-size: 3em;
+	font-family: 'Open Sans', sans-serif;
+}
+h6 {
+	font-family: 'Open Sans', sans-serif;
+}
+p#link {
+	font-family: 'Open Sans', sans-serif;
+}
+i {
+	transition: all 0.25s;
+	font-family: 'Open Sans', sans-serif;
+}
+i:hover {
+	transform: scale(1.20);
+}
+h1 {
+	font-size: 2em;
+	cursor: default;
+}
+.logo {
+	border-radius: 50%;
+	display: inline-block;
+	box-shadow: 0px 0px 20px #183078;
+	margin-bottom: 10px;
+	transition: all 0.0;
+}
+.logo:hover {
+	animation: shadow-pulse 1s infinite ease;
+}
+.downloads {
+	display: inline-block;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+}
+.downloads:hover {
+	transform: scale(1.10);
+}
+.faqs {
+	border-radius: 50%;
+	display: inline-block;
+	box-shadow: 0px 0px 20px #183078;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+}
+.faqs:hover {
+	transform: scale(1.10);
+}
+.tech {
+	display: inline-block;
+	margin-bottom: 10px;
+	transition: all 0.3s;
+}
+.tech:hover {
+	transform: scale(1.10);
+}
+h2 {
+	color: #e8e8e8;
+	font-size: 3em;
+}
+.smallbox {
+	max-width: 50em;
+	color: #D3D3D3;
+	text-align: center;
+	background-color: #000018;
+	margin: auto;
+}
+.mediumbox {
+	max-width: 75em;
+	color: #e8e8e8;
+	text-align: center;
+	background-color: #000018;
+	margin: auto;
+}
+p {
+	color: #e8e8e8;
+}
+.netsky {
+	border-radius: 50%;
+	display: inline-block;
+	max-width: 150px;
+	transition: all 0.25s;
+}
+.netsky:hover {
+	transform: scale(1.05);
+}
+.footer {
+	color: #fff;
+	background-color: #000030;
+	padding: 3em
+}
+@keyframes shadow-pulse {
+	0% {
+		box-shadow: 0px 0px 20px #183078;
+	}
+	50% {
+		box-shadow: 0px 0px 50px #183078;
+	}
+	100% {
+		box-shadow: 0px 0px 20px #183078;
+	}
+}
+.branding:hover {
+	-webkit-stroke-color: #FFFFFF;
+	-webkit-fill-color: #FFFFFF;
+	text-shadow: 1px 0px 20px #183078;
+	transform: scale(1.05);
+}
+.branding {
+	transition: all 0.3s;
+}
