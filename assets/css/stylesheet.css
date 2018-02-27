@@ -181,14 +181,6 @@ h1 {
 .logo:hover {
 	animation: shadow-pulse 1s infinite ease;
 }
-.downloads {
-	display: inline-block;
-	margin-bottom: 10px;
-	transition: all 0.3s;
-}
-.downloads:hover {
-	transform: scale(1.10);
-}
 .faqs {
 	border-radius: 50%;
 	display: inline-block;
@@ -228,7 +220,7 @@ h2 {
 p {
 	color: #e8e8e8;
 }
-.netsky {
+.stration {
 	border-radius: 50%;
 	display: inline-block;
 	max-width: 150px;
