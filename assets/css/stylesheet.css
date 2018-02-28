@@ -3,7 +3,7 @@
 	text-align: center;
 	color: #fff;
 	font-family: 'Ubuntu', sans-serif;
-	background-color: #000030;
+	background-color: #303090;
 }
 .navbar-item {
 	display: flex;
@@ -66,24 +66,6 @@
 #nav2:hover {
 	transform: scale(1.20);
 }
-#av {
-	transition: all 0.3s;
-}
-#av:hover {
-	transform: scale(1.20);
-}
-#clicking {
-	transition: all 0.3s;
-}
-#clicking:hover {
-	transform: scale(1.20);
-}
-#anon {
-	transition: all 0.3s;
-}
-#anon:hover {
-	transform: scale(1.20);
-}
 #music {
 	transition: all 0.3s;
 }
@@ -144,7 +126,7 @@ div#container {
 body {
 	height: 100%;
 	width: 100%;
-	background-color: #000018;
+	background-color: #301860;
 	color: #fff;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
@@ -174,7 +156,7 @@ h1 {
 .logo {
 	border-radius: 50%;
 	display: inline-block;
-	box-shadow: 0px 0px 20px #183078;
+	box-shadow: 0px 0px 20px #7878c0;
 	margin-bottom: 10px;
 	transition: all 0.0;
 }
@@ -184,7 +166,7 @@ h1 {
 .faqs {
 	border-radius: 50%;
 	display: inline-block;
-	box-shadow: 0px 0px 20px #183078;
+	box-shadow: 0px 0px 20px #301860;
 	margin-bottom: 10px;
 	transition: all 0.3s;
 }
@@ -207,14 +189,14 @@ h2 {
 	max-width: 50em;
 	color: #D3D3D3;
 	text-align: center;
-	background-color: #000018;
+	background-color: #301860;
 	margin: auto;
 }
 .mediumbox {
 	max-width: 75em;
 	color: #e8e8e8;
 	text-align: center;
-	background-color: #000018;
+	background-color: #301860;
 	margin: auto;
 }
 p {
@@ -226,29 +208,29 @@ p {
 	max-width: 150px;
 	transition: all 0.25s;
 }
-.netsky:hover {
+.stration:hover {
 	transform: scale(1.05);
 }
 .footer {
 	color: #fff;
-	background-color: #000030;
+	background-color: #303090;
 	padding: 3em
 }
 @keyframes shadow-pulse {
 	0% {
-		box-shadow: 0px 0px 20px #183078;
+		box-shadow: 0px 0px 20px #7878c0;
 	}
 	50% {
-		box-shadow: 0px 0px 50px #183078;
+		box-shadow: 0px 0px 50px #7878c0;
 	}
 	100% {
-		box-shadow: 0px 0px 20px #183078;
+		box-shadow: 0px 0px 20px #7878c0;
 	}
 }
 .branding:hover {
 	-webkit-stroke-color: #FFFFFF;
 	-webkit-fill-color: #FFFFFF;
-	text-shadow: 1px 0px 20px #183078;
+	text-shadow: 1px 0px 20px #7878c0;
 	transform: scale(1.05);
 }
 .branding {
