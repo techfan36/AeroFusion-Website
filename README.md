@@ -1,4 +1,4 @@
-# AeroFusion's Website
+# [AeroFusion's Website](https://aerofusion.net)
 
 My personal website. I made this after my old site was getting outdated & I learned more web skills.
 
@@ -6,8 +6,8 @@ My personal website. I made this after my old site was getting outdated & I lear
 
 This site **__can__** be used and modified to your liking, if it meets:
 
-* Has credit in the footer (Site by AeroFusion (w/ a link to https://aerofusion.net)
-* No credit is removed.
+* Has credit in the footer (Site by AeroFusion (with a link to [my site](https://aerofusion.net)
+* No credit is removed, such as "site by skid420. all rights reserved!!! !"
 * You do not claim this as your own or your own work
 * You do not change the design up too much
 
@@ -23,3 +23,4 @@ Currently, the website is made with:
 ## What else should I know?
 
 Nothing really, if you are to use it be sure to put "Site by AeroFusion" in the footer with my website linked to it.
+If you see a bug, error, or something that can be improved, feel free to create a PR or contact me on Discord @ Espi#0138.
