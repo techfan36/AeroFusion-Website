@@ -110,7 +110,7 @@
 }
 
 #hero-header {
-	background-image: url('./assets/images/header.png'); background-size: cover;
+	background-image: url('/assets/images/header.png'); background-size: cover;
 }
 a {
 	color: #fff;
