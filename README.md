@@ -4,7 +4,7 @@ My personal website. I made this after my old site was getting outdated & I lear
 
 ## Usage rights
 
-This site **__can__** be used and modified to your liking, provided your use meets the [terms of the MPL](LICENSE).
+This site **__can__** be used and modified to your liking, provided your use meets the [terms of the MPL](LICENSE.md).
 
 ## What it's made with
 
