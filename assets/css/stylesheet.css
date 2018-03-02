@@ -27,23 +27,18 @@
 }
 #twitter:hover {
 	color: #1da1f2;
-	transform: scale(1.20);
 }
 #youtube:hover {
 	color: #ff0000;
-	transform: scale(1.20);
 }
 #keybase:hover {
 	color: #FF6F21;
-	transform: scale(1.20);
 }
 #github:hover {
 	color: #4078c0;
-	transform: scale(1.20);
 }
 #discord:hover {
 	color: #7289DA;
-	transform: scale(1.20);
 }
 #youtube,
 #twitter,
@@ -55,32 +50,24 @@
 #faqs,
 #devices,
 #music,
-#downloads
-{
+#downloads {
 	transition: all 0.3s;
 }
 
-#nav2:hover {
-	transform: scale(1.20);
-}
-#music:hover {
-	transform: scale(1.20);
-}
-#channels:hover {
-	transform: scale(1.20);
-}
-#games:hover {
-	transform: scale(1.20);
-}
-#faqs:hover {
-	transform: scale(1.20);
-}
-#devices:hover {
-	transform: scale(1.20);
-}
+#youtube:hover,
+#twitter:hover,
+#github:hover,
+#keybase:hover,
+#nav2:hover,
+#music:hover,
+#channels:hover,
+#games:hover,
+#faqs:hover,
+#devies:hover,
 #downloads:hover {
 	transform: scale(1.20);
 }
+
 
 #hero-header {
 	background-image: url('/assets/images/header.png'); background-size: cover;
