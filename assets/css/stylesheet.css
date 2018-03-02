@@ -45,65 +45,38 @@
 	color: #7289DA;
 	transform: scale(1.20);
 }
-#youtube {
+#youtube,
+#twitter,
+#github,
+#keybase,
+#nav2,
+#channels,
+#games, 
+#faqs,
+#devices,
+#music,
+#downloads
+{
 	transition: all 0.3s;
 }
-#twitter {
-	transition: all 0.3s;
-}
-#github {
-	transition: all 0.3s;
-}
-#keybase {
-	transition: all 0.3s;
-}
-#discord {
-	transition: all 0.3s;
-}
-#nav2 {
-	transition: all 0.3s;
-}
+
 #nav2:hover {
 	transform: scale(1.20);
-}
-#music {
-	transition: all 0.3s;
 }
 #music:hover {
 	transform: scale(1.20);
 }
-#channels {
-	transition: all 0.3s;
-}
 #channels:hover {
 	transform: scale(1.20);
 }
-#games {
-	transition: all 0.3s;
-}
 #games:hover {
 	transform: scale(1.20);
-}
-#games {
-	transition: all 0.3s;
-}
-#games:hover {
-	transform: scale(1.20);
-}
-#faqs {
-	transition: all 0.3s;
 }
 #faqs:hover {
 	transform: scale(1.20);
 }
-#devices {
-	transition: all 0.3s;
-}
 #devices:hover {
 	transform: scale(1.20);
-}
-#downloads {
-	transition: all 0.3s;
 }
 #downloads:hover {
 	transform: scale(1.20);
