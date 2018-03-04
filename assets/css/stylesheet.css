@@ -55,6 +55,7 @@
 }
 
 #youtube:hover,
+#discord:hover,
 #twitter:hover,
 #github:hover,
 #keybase:hover,
@@ -63,7 +64,7 @@
 #channels:hover,
 #games:hover,
 #faqs:hover,
-#devies:hover,
+#devices:hover,
 #downloads:hover {
 	transform: scale(1.20);
 }
