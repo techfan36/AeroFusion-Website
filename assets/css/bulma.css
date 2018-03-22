@@ -1669,7 +1669,6 @@ button.button, input[type="submit"].button {
 }
 .input.is-inline, .textarea.is-inline {
 	display: inline;
-	width: auto;
 }
 .textarea {
 	display: block;
@@ -1747,7 +1746,6 @@ button.button, input[type="submit"].button {
 	padding-right: calc(0.625em - 1px);
 	padding-top: calc(0.375em - 1px);
 	position: relative;
-	vertical-align: top;
 	background-color: white;
 	border-color: #dbdbdb;
 	color: #363636;

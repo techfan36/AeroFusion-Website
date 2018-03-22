@@ -1,7 +1,11 @@
-.body {
-	background-image: url('/assets/images/header.png');
+.top {
+	background-image: url('https://aerofusion.net/assets/images/header.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
 }
+
 .header {
 	width: 100%;
 	text-align: center;
@@ -39,8 +43,8 @@
 #youtube:hover {
 	color: #ff0000;
 }
-#keybase:hover {
-	color: #FF6F21;
+#steam:hover {
+	color: #00adee;
 }
 #github:hover {
 	color: #4078c0;
@@ -51,7 +55,7 @@
 #youtube,
 #twitter,
 #github,
-#keybase,
+#steam,
 #nav2,
 #channels,
 #games, 
@@ -67,7 +71,7 @@
 #discord:hover,
 #twitter:hover,
 #github:hover,
-#keybase:hover,
+#steam:hover,
 #nav2:hover,
 #music:hover,
 #channels:hover,
@@ -84,7 +88,7 @@
 	
 }
 #hero-header {
-	background-image: url('/assets/images/header.png'); background-size: cover;
+	background-image: url('./assets/images/header.png'); background-size: cover;
 }
 a {
 	color: #fff;
@@ -134,9 +138,13 @@ h1 {
 	box-shadow: 0px 0px 20px #7878c0;
 	margin-bottom: 10px;
 	transition: all 0.0;
+	-webkit-transition: -webkit-transform .8s ease-in-out;
+	transition: transform .8s ease-in-out;
 }
 .logo:hover {
 	animation: shadow-pulse 1s infinite ease;
+	-webkit-transform: rotate(360deg);
+		  transform: rotate(360deg);
 }
 .faqs {
 	border-radius: 50%;
@@ -206,8 +214,139 @@ p {
 	-webkit-stroke-color: #FFFFFF;
 	-webkit-fill-color: #FFFFFF;
 	text-shadow: 1px 0px 20px #7878c0;
-	transform: scale(1.05);
 }
 .branding {
 	transition: all 0.3s;
 }
+
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+  
+  .animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  }
+
+  @-webkit-keyframes slideInDown {
+	from {
+	  -webkit-transform: translate3d(0, -100%, 0);
+	  transform: translate3d(0, -100%, 0);
+	  visibility: visible;
+	}
+  
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  
+  @keyframes slideInDown {
+	from {
+	  -webkit-transform: translate3d(0, -100%, 0);
+	  transform: translate3d(0, -100%, 0);
+	  visibility: visible;
+	}
+  
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  
+  .slideInDown {
+	-webkit-animation-name: slideInDown;
+	animation-name: slideInDown;
+  }
+
+  @-webkit-keyframes fadeInDown {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(0, -100%, 0);
+	  transform: translate3d(0, -100%, 0);
+	}
+  
+	to {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+  }
+  
+  @keyframes fadeInDown {
+	from {
+	  opacity: 0;
+	  -webkit-transform: translate3d(0, -100%, 0);
+	  transform: translate3d(0, -100%, 0);
+	}
+  
+	to {
+	  opacity: 1;
+	  -webkit-transform: none;
+	  transform: none;
+	}
+  }
+  
+  .fadeInDown {
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+  }
+
+  @-webkit-keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  .fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+  }
+
+  @-webkit-keyframes slideInUp {
+	from {
+	  -webkit-transform: translate3d(0, 100%, 0);
+	  transform: translate3d(0, 100%, 0);
+	  visibility: visible;
+	}
+  
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  
+  @keyframes slideInUp {
+	from {
+	  -webkit-transform: translate3d(0, 100%, 0);
+	  transform: translate3d(0, 100%, 0);
+	  visibility: visible;
+	}
+  
+	to {
+	  -webkit-transform: translate3d(0, 0, 0);
+	  transform: translate3d(0, 0, 0);
+	}
+  }
+  
+  .slideInUp {
+	-webkit-animation-name: slideInUp;
+	animation-name: slideInUp;
+  }

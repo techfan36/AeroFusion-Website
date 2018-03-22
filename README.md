@@ -12,7 +12,7 @@ Currently, the website is made with:
 
 * Bulma
 * Font Awesome
-* Animate.css
+* Parts of animate.css
 * My own code & CSS.
 
 ## What else should I know?
