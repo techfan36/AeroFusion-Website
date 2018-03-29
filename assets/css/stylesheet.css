@@ -143,8 +143,7 @@ h1 {
 }
 .logo:hover {
 	animation: shadow-pulse 1s infinite ease;
-	-webkit-transform: rotate(360deg);
-		  transform: rotate(360deg);
+
 }
 .faqs {
 	border-radius: 50%;
