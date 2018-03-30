@@ -18,4 +18,4 @@ Currently, the website is made with:
 ## What else should I know?
 
 Nothing really, if you are to use it be sure to put "Site by AeroFusion" in the footer with my website linked to it.
-If you see a bug, error, or something that can be improved, feel free to create a PR or contact me on Discord @ Espi#0138.
+If you see a bug, error, or something that can be improved, feel free to create a PR or contact me on Discord @ `Espi 💕#0138`
