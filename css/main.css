@@ -1,0 +1,145 @@
+/** General Layout **/
+
+body {
+	height: 100%;
+	width: 100%;
+	color: #333;
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.container {
+	max-width: 75em;
+	margin: auto;
+	color: #fff;
+	text-align: center;
+	vertical-align: baseline;
+}
+
+.header {
+	width: 100%;
+	text-align: center;
+	color: #fff;
+}
+
+.hero#gradient {
+	background: linear-gradient(90deg, #5921c0, #1a47c2);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
+}
+
+.small-spacing {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.medium-spacing {
+	margin-top: 65px;
+	margin-bottom: 65px;
+}
+
+.large-spacing {
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+.devices {
+	max-width: 40em;
+	color: #333;
+	font-size: 1em;
+	text-align: left;
+	background-color: #fff;
+	margin: auto;
+}
+
+.footer {
+	color: #fff;
+	background-color: #1a47c2;
+	padding: 3em
+}
+
+/** Fonts & Text **/
+
+h1 {
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+p {
+	color: #333;
+}
+
+span {
+	color: #333;
+}
+
+.mobile-nav {
+	color: #333;
+}
+
+.about {
+	font-size: 30px;
+	color: #333;
+}
+
+.description {
+	font-size: 15px;
+	text-align: left;
+	color: #333;
+}
+
+.footer-text {
+	color: #fff;
+	font-size: 1em;
+}
+
+/** Images & Icons **/
+
+.avatar {
+	width: 175px;
+	height: 175px;
+	border-radius: 100%;
+	border: 3px solid #1a47c2;
+	transition: all 0.5s ease;
+	-webkit-user-drag: none;
+	-khtml-user-drag: none;
+	-moz-user-drag: none;
+	-o-user-drag: none;
+}
+
+.avatar:hover {
+	transform: rotate(360deg);
+}
+
+.icons {
+	color: #fff;
+	transition: all 0.2s;
+	font-size: 40px;
+	margin-top: 5px;
+}
+
+.icons:hover {
+	color: #1da1f2;
+}
+
+.devices-icons {
+	color: #333;
+	transition: all 0.2s;
+	margin-top: 10px;
+}
+
+.devices-icons:hover {
+	color: #1a47c2;
+	transition: all 0.2s;
+}

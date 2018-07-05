@@ -1,165 +1,240 @@
 <!DOCTYPE html>
-<!-- Copyright 2018 AeroFusion. Do not remove this line!. -->
 <html lang="en">
-   <head>
-      <!-- Compatibility Metadata -->
-      <meta charset="UTF-8">
-      <meta content="width=device-width,initial-scale=1" name="viewport">
-      <meta content="#5540bf" name="theme-color">
-      <!-- Ownership  Metadata -->
-      <meta content="AeroFusion" name="author">
-      <meta content="AeroFusion" name="designer">
-      <meta content="AeroFusion" name="owner">
-      <meta name="google-site-verification" content="soVo6qIgXYpP3PDMFnQ9fRXWQMmQ4c4G4DnvGHRWj-E" />
-      <!-- Search Engine Metadata -->
-      <meta content="index, follow" name="robots">
-      <meta content="Devices and tech that I own." name="description">
-      <meta content="espi, aerofusion, youtube, github, netsky, community, discord, blog, keybase, aerofusionyt, espi, nc, netskycommunity.me, nc network, netsky network, netsky_community" name="keywords">
-      <!-- Open Graph Metadata -->
-      <meta content="Devices and tech that I own." property="og:description">
-      <meta content="/assets/images/tech.png" property="og:image">
-      <meta content="AeroFusion's Devices" property="og:title">
-      <meta content="website" property="og:type">
-      <meta content="https://aerofusion.net" property="og:url">
-      <meta content="AeroFusion's Devices" property="og:site_name">
-      <!-- Twitter Metadata -->
-      <meta content="summary" name="twitter:card">
-      <meta content="@AeroFusionYT" name="twitter:site">
-      <meta content="AeroFusion's Devices" name="twitter:title">
-      <meta content="Devices and tech that I own" name="twitter:description">
-      <meta content="https://aerofusion.net/assets/images/tech.png" name="twitter:image">
-      <!-- Icons Metadata -->
-      <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicons/android-chrome-192x192.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
-      <link rel="manifest" href="./assets/images/favicons/site.webmanifest">
-      <link rel="mask-icon" href="./assets/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
-      <link rel="shortcut icon" href="./assets/images/favicons/favicon.ico">
-      <meta name="msapplication-TileColor" content="#5540bf">
-      <meta name="msapplication-config" content="./assets/images/favicons/browserconfig.xml">
-      <!-- Web Resources -->
-      <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Comfortaa:300" rel="stylesheet">
-      <link href="/assets/css/bulma.css" rel="stylesheet" type="text/css">
-      <link href="/assets/css/stylesheet.css" rel="stylesheet" type="text/css">
-      <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-      <title>AeroFusion's Devices</title>
-   </head>
-   <body>
-      <div style="background-image: url('/assets/images/header.png'); background-size: cover;">
-         <div class="animated fadeInDown">
-            <br>
-            <br>
-            <img alt="tech" class="tech" src="/assets/images/tech.png" style="width:250px;">
-         </div>
-         <div class="animated fadeIn">
-            <h1 class="branding" style="font-family: 'Comfortaa', cursive; font-size:50px;">Devices</h1>
-         </div>
-         <br>
-         <div class="hero is-info is-small" style="background-color:#3d1f77;">
-            <div class="hero-body">
-               <h1 class="subtitle">These are my devices. They aren't the best. I plan on upgrading soon.</h1>
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <meta content="#1a47c2" name="theme-color">
+    <meta content="soVo6qIgXYpP3PDMFnQ9fRXWQMmQ4c4G4DnvGHRWj-E" name="google-site-verification">
+    <meta content="index" name="robots">
+    <meta content="A list of some of the tech I own." name="description">
+    <meta content="espi, aerofusion, youtube, github, developer, contact, netsky, discord, aerofusionyt, espi" name="keywords">
+    <meta content="summary" name="twitter:card">
+    <meta content="@AeroFusionYT" name="twitter:site">
+    <meta content="AeroFusion's Devices" name="twitter:title">
+    <meta content="A list of some of the tech I own." name="twitter:description">
+    <meta content="https://aerofusion.net/img/avatar.png" name="twitter:image">
+    <meta content="AeroFusion's Devices" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="https://aerofusion.net/devices/" property="og:url">
+    <meta content="A list of some of the tech I own." property="og:description">
+    <meta content="https://aerofusion.net/img/avatar.png" property="og:image">
+    <link href="img/favicon.png" rel="shortcut icon">
+    <link href="css/webfonts/raleway.css" rel="stylesheet">
+    <link href="css/bulma.css" rel="stylesheet" type="text/css">
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/other.css" rel="stylesheet" type="text/css">
+    <script src="js/font-awesome.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/typed.js"></script>
+	<base target="_self" />
+    <title>Devices - AeroFusion</title>
+</head>
+
+<body>
+    <nav class="navbar is-white">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://aerofusion.net/">
+                <p>AeroFusion</p>
+            </a>
+            <span class="navbar-burger burger mobile-nav" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+                <a href="https://aerofusion.net/" class="navbar-item">Home</a>
+                <a href="https://aerofusion.net/devices.html" class="navbar-item is-active">Devices</a>
+                <a href="https://netsky.me/" class="navbar-item">Discord</a>
             </div>
-         </div>
-      </div>
-      <br>
-      <div class="columns">
-         <div class="column is-half">
-            <div class="box smallbox">
-               <h1>Main PC</h1>
-               <p>CPU: AMD A6 5400B (Dual-Core APU)</p>
-               <p>GPU: Gigabyte Nvidia GT 1030 (2GB)</p>
-               <p>RAM: 16.0GB Dual-Channel DDR3 </p>
-               <p>SSD: Samsung 850 Evo 250GB (SATA) </p>
-               <p>HDD: Western Digital Blue 1TB (2012)</p>
-               <p>OS: Windows 7 Ultimate x64 </p>
-            </div>
-         </div>
-         <div class="column is-half">
-            <div class="box smallbox">
-               <h1>Old Custom Build</h1>
-               <p> CPU: Intel Pentium 4 (2.8GHz, Hyperthreading) </p>
-               <p> GPU: NVIDIA FX 5200 (EVGA 256MB) </p>
-               <p> RAM: 2.5GB DDR (Dual-Channel) </p>
-               <p> HDD: 160GB WD Caviar (7200RPM IDE) </p>
-               <p> OS: Windows XP Professional </p>
-            </div>
-         </div>
-      </div>
-      <div class="columns">
-         <div class="column is-half">
-            <div class="box smallbox">
-               <h1> Dell Dimension E310 </h1>
-               <p> CPU: Intel Pentium 4 / 2.80GHz HT </p>
-               <p> GPU: NVIDIA FX 5200 (PNY 256MB) </p>
-               <p> RAM: 2.5GB DDR2 Dual-Channel </p>
-               <p> HDD: 640GB Western Digital Blue (2012) </p>
-               <p> OS: Windows XP MCE 2005 (DELL OEM) </p>
-               <p> Optical Drives: 2x LITE-ON DVD-ROM </p>
-               <p> Floppy Drive: Dell OEM FDD (Black) </p>
-            </div>
-         </div>
-         <div class="column is-half">
-            <div class="box smallbox">
-               <h1> Consoles &amp; Handhelds </h1>
-               <p>NES</p>
-               <p>SNES</p>
-               <p>New 3DS XL<p>
-               <p>Wii</p>
-               <p>XBOX (Original)</p>
-               <p>Nintendo GameCube (Purple) </p>
-               <P>Original, Colour, Advance, &amp; SP GameBoys</P>
-            </div>
-         </div>
-      </div>
-      <div class="columns">
-         <div class="column is-half">
-            <div class="box smallbox">
-               <h1>Cell Phone  </h1>
-               <p> Model: DROID TURBO MAXX 2 </p>
-               <p> Screen: 5.5" 1080p Full HD </p>
-               <p> CPU: 1.7GHz Qualcomm Snapdragon 615 </p>
-               <p> GPU: Adreno 405 @ 550 MHz </p>
-               <p> Camera: 21MP Back, 5MP Front </p>
-            </div>
-         </div>
-         <div class="column is-half">
-            <div class="box smallbox">
-               <h1>Networking </h1>
-               <p> Router: Linksys AC1200+ </p>
-               <p> Modem: Cisco DPC3208 </p>
-               <p> ISP: Charter Spectrum </p>
-               <p> Avg. Upload Speed: 10MiB/s </p>
-               <p> Avg. Download Speed: 100MiB/s </p>
-            </div>
-         </div>
-      </div>
-      <br>
-      <br>
-      <div class="hero is-info is-small" style="background-color:#3d1f77;">
-         <div class="hero-body">
-            <h1><u>Home</u></h1>
-            <br>
+        </div>
+    </nav>
+    <div class="hero is-medium" id="gradient">
+        <div class="hero-body">
             <div class="container">
-               <div class="columns">
-                  <div class="column has-text-centered">
-                     <span class="icon is-large"><a href="index.html"><i class="fas fa-home fa-2x" id="devices"></i></a></span>
-                     <p class="subtitle"><b>Take me Home</b></p>
-                  </div>
-               </div>
+                <p class="typed"></p>
+                <h3 class="animated fadeIn">A list of some of the tech I own.</h3>
             </div>
-         </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="footer">
-         <p>&copy; AeroFusion. All Rights Reserved.</p>
-      </div>
-   </body>
-<!-- Copyright 2018 AeroFusion. Do not remove this line!. -->
+        </div>
+    </div>
+    <div class="container">
+        <div class="animated slideInUp">
+            <div class="large-spacing"></div>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="box devices">
+                        <h3>
+                            <i class="devices-icons fas fa-tv"></i>
+                            <b>Main PC</b>
+                        </h3>
+                        <p>
+                            <b>CPU:</b> AMD A10-6700 APU
+                        </p>
+                        <p>
+                            <b>GPU:</b> GIGABYTE NVIDIA GT 1030
+                        </p>
+                        <p>
+                            <b>RAM:</b> 16GB DDR3 (Dual-Channel)
+                        </p>
+                        <p>
+                            <b>HDD:</b> Western Digital Blue 1TB
+                        </p>
+                        <p>
+                            <b>OS:</b> Aero10 (Windows 10 LTSB 2016)
+                        </p>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="box devices">
+                        <h3>
+                            <i class="devices-icons fas fa-mobile-alt"></i>
+                            <b>Cell Phone</b>
+                        </h3>
+                        <p>
+                            <b>Model:</b> Moto Z Force Droid
+                        </p>
+                        <p>
+                            <b>CPU:</b> Qualcomm Snapdragon 820
+                        </p>
+                        <p>
+                            <b>GPU:</b> Adreno 530
+                        </p>
+                        <p>
+                            <b>RAM:</b> 4GB
+                        </p>
+                        <p>
+                            <b>ROM:</b> 32GB
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="box devices">
+                        <h3>
+                            <i class="devices-icons fas fa-desktop"></i>
+                            <b>Dell Dimension E310</b>
+                        </h3>
+                        <p>
+                            <b>CPU:</b> Intel Pentium 4 (2.8GHz HT)
+                        </p>
+                        <p>
+                            <b>GPU:</b> NVIDIA FX 5200 (PNY 256MB)
+                        </p>
+                        <p>
+                            <b>RAM:</b> 2.5GB DDR2 (Dual-Channel)
+                        </p>
+                        <p>
+                            <b>HDD:</b> WD Caviar WD1200 120GB
+                        </p>
+                        <p>
+                            <b>OS:</b> Windows XP MCE 2005
+                        </p>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="box devices">
+                        <h3>
+                            <i class="devices-icons fas fa-recycle"></i>
+                            <b>Trash-Picked Build</b>
+                        </h3>
+                        <p>
+                            <b>CPU:</b> Intel Pentium 4 (3GHz HT)
+                        </p>
+                        <p>
+                            <b>GPU:</b> EVGA NVIDIA FX 5200 (512MB)
+                        </p>
+                        <p>
+                            <b>RAM:</b> 2GB DDR (Dual-Channel)
+                        </p>
+                        <p>
+                            <b>HDD:</b> WD Caviar WD1600 160GB
+                        </p>
+                        <p>
+                            <b>OS:</b> Windows XP Professional
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column is-half">
+                    <div class="box devices">
+                        <h3>
+                            <i class="devices-icons fab fa-apple"></i>
+                            <b>Apple PowerMac G4</b>
+                        </h3>
+                        <p>
+                            <b>CPU:</b> PowerPC G4 1.25GHz
+                        </p>
+                        <p>
+                            <b>GPU:</b> ATI Radeon 9000 Pro
+                        </p>
+                        <p>
+                            <b>RAM:</b> 256MB DDR SDRAM
+                        </p>
+                        <p>
+                            <b>HDD:</b> 10GB Apple IDE HDD
+                        </p>
+                        <p>
+                            <b>OS:</b> Mac OS X Tiger 10.4.11
+                        </p>
+                    </div>
+                </div>
+                <div class="column is-half">
+                    <div class="box devices">
+                        <h3>
+                            <i class="devices-icons fas fa-globe"></i>
+                            <b>Networking</b>
+                        </h3>
+                        <p>
+                            <b>Router:</b> Linksys AC1200+
+                        </p>
+                        <p>
+                            <b>Modem:</b> Cisco DPC3208
+                        </p>
+                        <p>
+                            <b>ISP:</b> Charter Spectrum
+                        </p>
+                        <p>
+                            <b>Upload Speed:</b> 10MiB/s
+                        </p>
+                        <p>
+                            <b>Download Speed:</b> 100MiB/s
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="large-spacing"></div>
+    <footer class="footer">
+        <p class="footer-text">&copy; 2018 AeroFusion. All Rights Reserved.</p>
+    </footer>
+    <script>
+        $(function () {
+            $(".typed").typed({
+                strings: ["Devices"],
+                stringsElement: null,
+                typeSpeed: 30,
+                startDelay: 5,
+                backSpeed: 20,
+                backDelay: 500,
+                loop: !1,
+                loopCount: 5,
+                showCursor: !1,
+                cursorChar: "|",
+                attr: null,
+                contentType: 'html',
+                callback: function () {},
+                preStringTyped: function () {},
+                onStringTyped: function () {},
+                resetCallback: function () {}
+            })
+        })
+    </script>
+</body>
+
 </html>
