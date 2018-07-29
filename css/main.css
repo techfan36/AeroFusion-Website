@@ -23,17 +23,12 @@ body {
 }
 
 .hero#gradient {
-	background: linear-gradient(90deg, #5921c0, #1a47c2);
+	background: linear-gradient(90deg, #102ba5, #4e00cc);
 	background-size: 400% 400%;
-	-webkit-animation: gradient 5s ease infinite;
-	-moz-animation: gradient 5s ease infinite;
-	-o-animation: gradient 5s ease infinite;
-	animation: gradient 5s ease infinite;
-}
-
-.small-spacing {
-	margin-top: 5px;
-	margin-bottom: 5px;
+	-webkit-animation: gradient 4s ease infinite;
+	-moz-animation: gradient 4s ease infinite;
+	-o-animation: gradient 4s ease infinite;
+	animation: gradient 4s ease infinite;
 }
 
 .medium-spacing {
@@ -42,8 +37,8 @@ body {
 }
 
 .large-spacing {
-	margin-top: 120px;
-	margin-bottom: 120px;
+	margin-top: 175px;
+	margin-bottom: 175px;
 }
 
 .devices {
@@ -55,11 +50,18 @@ body {
 	margin: auto;
 }
 
+.text-container {
+	max-width: 75em;
+	margin: auto;
+	font-size: 1.025em;
+}
+
 .footer {
 	color: #fff;
-	background-color: #1a47c2;
+	background-color: #102ba5;
 	padding: 3em
 }
+
 
 /** Fonts & Text **/
 
@@ -80,6 +82,14 @@ p {
 	color: #333;
 }
 
+a {
+	color: #102ba5;
+}
+
+li {
+	margin: 1px 0;
+}
+
 span {
 	color: #333;
 }
@@ -93,6 +103,16 @@ span {
 	color: #333;
 }
 
+.text {
+	text-align: left;
+	display: inline-block;
+}
+
+.text-centered {
+	text-align: center;
+	display: inline-block;
+}
+
 .description {
 	font-size: 15px;
 	text-align: left;
@@ -104,19 +124,19 @@ span {
 	font-size: 1em;
 }
 
+
 /** Images & Icons **/
 
-.avatar {
+.logo {
 	width: 175px;
 	height: 175px;
 	border-radius: 100%;
-	border: 3px solid #1a47c2;
+	border: 3px solid #102ba5;
 	-webkit-user-drag: none;
 	-khtml-user-drag: none;
 	-moz-user-drag: none;
 	-o-user-drag: none;
 }
-
 
 .icons {
 	color: #fff;
@@ -126,7 +146,7 @@ span {
 }
 
 .icons:hover {
-	color: #1da1f2;
+	color: #102ba5;
 }
 
 .devices-icons {
@@ -136,6 +156,17 @@ span {
 }
 
 .devices-icons:hover {
-	color: #1a47c2;
+	color: #102ba5;
 	transition: all 0.2s;
+}
+
+.contact-icon {
+	color: #333;
+	font-size: 1.025em;
+	transition: all 0.1s;
+}
+
+.contact-icon:hover {
+	color: #102ba5;
+	transition: all 0.1s;
 }
