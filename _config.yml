@@ -1,0 +1,11 @@
+plugins:
+   - jekyll-avatar
+   - jekyll-mentions
+   - jekyll-sitemap
+   - jekyll-feed
+   - jemoji
+permalink: /blog/:categories/:title/
+kramdown:
+  auto_ids: false
+title: AeroFusion's Blog
+description: Whatever I post will be here
