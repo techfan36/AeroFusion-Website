@@ -1,21 +1,15 @@
-# [AeroFusion's Website](https://aerofusion.net)
+# [AeroFusion's Website (Legacy)](https://aerofusion.us/)
 
-This is the website for the [AeroFusion](https://aerofusion.net) brand, and me personally. It is version 3 of the website.
+This is an older website created by me in July 2018. This was the website before my domain swap from .net to .us. 
+The current website can be found under the master branch. If for some terrible reason you want to use it, read below.
 
-## What are the usage rights?
+## Usage Rights
+The site is licensed under CC BY. In laymans terms, use the site for whatever - just make sure to give appropriate credit and cite this repo as the source. More info can be found in [LICENSE.md](LICENSE.md) or on the [Creative Commons' website](https://creativecommons.org/licenses/by/4.0/).
 
-This site **__can__** be used and modified to your liking, provided your use meets the [terms of the MPL](LICENSE.md).
-If you are to use it for something, then be sure to put "Site by AeroFusion" in a footer or something similar with my [website](https://aerofusion.net) linked to it.
+## What it's made with 
+The website makes use of many cool open-source frameworks and software
+- [Bulma](https://bulma.io) is my SS framework of choice
+- [Font Awesome](https://fontawesome.com/) are cool icons
+- [Animate.css](https://daneden.github.io/animate.css/) provides flashy animations
 
-## What is it made with?
-
-Currently, the website is made with:
-
-* [Bulma v0.7.1](https://bulma.io/)
-* [Font Awesome v5](https://fontawesome.com/)
-* Parts of [Animate.css](https://daneden.github.io/animate.css/).
-* My own custom code & CSS.
-
-## What else should I know?
-
-If you see a bug, error, or something that can be improved, feel free to create a PR or contact me.
+#### A bug or flaw in this site will NOT be updated by me as this branch is no-longer maintained.
