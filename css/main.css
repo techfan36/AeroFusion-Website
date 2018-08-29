@@ -4,31 +4,23 @@ body {
 	height: 100%;
 	width: 100%;
 	color: #333;
-	background-color: #f2f2f2;
-	text-align: center;
+	background-color: #f3f3f3;
 }
 
 .container {
 	max-width: 75em;
 	margin: auto;
 	color: #fff;
-	text-align: center;
-	vertical-align: baseline;
+	text-align: left;
 }
 
-.header {
-	width: 100%;
-	text-align: center;
-	color: #fff;
-}
-
-.hero#gradient {
-	background: linear-gradient(90deg, #102ba5, #4e00cc);
+.gradient {
+	background: linear-gradient(150deg, #3a0c85, #482186);
 	background-size: 400% 400%;
-	-webkit-animation: gradient 4s ease infinite;
-	-moz-animation: gradient 4s ease infinite;
-	-o-animation: gradient 4s ease infinite;
-	animation: gradient 4s ease infinite;
+	-webkit-animation: gradient 5s ease infinite;
+	-moz-animation: gradient 5s ease infinite;
+	-o-animation: gradient 5s ease infinite;
+	animation: gradient 5s ease infinite;
 }
 
 .medium-spacing {
@@ -36,9 +28,12 @@ body {
 	margin-bottom: 65px;
 }
 
-.large-spacing {
-	margin-top: 175px;
-	margin-bottom: 175px;
+span {
+	color: #333;
+}
+
+.mobile-nav {
+	color: #333;
 }
 
 .devices {
@@ -49,19 +44,6 @@ body {
 	background-color: #fff;
 	margin: auto;
 }
-
-.text-container {
-	max-width: 75em;
-	margin: auto;
-	font-size: 1.025em;
-}
-
-.footer {
-	color: #fff;
-	background-color: #102ba5;
-	padding: 3em
-}
-
 
 /** Fonts & Text **/
 
@@ -75,63 +57,84 @@ h2 {
 }
 
 h3 {
-	font-size: 1.1em;
-}
-
-p {
-	color: #333;
-}
-
-a {
-	color: #102ba5;
-}
-
-li {
-	margin: 1px 0;
-}
-
-span {
-	color: #333;
-}
-
-.mobile-nav {
-	color: #333;
-}
-
-.about {
-	font-size: 30px;
-	color: #333;
-}
-
-.text {
-	text-align: left;
-	display: inline-block;
-}
-
-.text-centered {
-	text-align: center;
-	display: inline-block;
-}
-
-.description {
-	font-size: 15px;
-	text-align: left;
-	color: #333;
-}
-
-.footer-text {
-	color: #fff;
 	font-size: 1em;
 }
 
+p {
+	color: #fff;
+}
+
+.title {
+	font-size: 3.1em !important;
+	color: #fff !important;
+	margin-bottom: 0px !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.subtitle {
+	font-size: 1.2em !important;
+	color: #fff !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+.header {
+	font-size: 2.4em;
+	color: #333;
+	margin-bottom: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.post {
+	font-size: 1.3em;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.post-link {
+	font-size: 1em;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.post-link:hover {
+	font-size: 1em;
+	color: #3a0c85;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.post-desc {
+	font-size: 1em;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.post-meta {
+	font-size: .95em;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+footer {
+	color: #333;
+	text-align: center !important;
+}
+
+.footer-text {
+	color: #333;
+	font-size: 1em;
+}
 
 /** Images & Icons **/
 
 .logo {
-	width: 175px;
-	height: 175px;
-	border-radius: 100%;
-	border: 3px solid #102ba5;
+	width: 200px;
+	height: 200px;
 	-webkit-user-drag: none;
 	-khtml-user-drag: none;
 	-moz-user-drag: none;
@@ -141,32 +144,29 @@ span {
 .icons {
 	color: #fff;
 	transition: all 0.2s;
-	font-size: 40px;
-	margin-top: 5px;
+	font-size: 45px;
 }
 
 .icons:hover {
-	color: #102ba5;
+	color: #ccc;
 }
 
 .devices-icons {
-	color: #333;
+	color: #000;
 	transition: all 0.2s;
 	margin-top: 10px;
 }
 
 .devices-icons:hover {
-	color: #102ba5;
+	color: #333;
 	transition: all 0.2s;
 }
 
-.contact-icon {
-	color: #333;
-	font-size: 1.025em;
-	transition: all 0.1s;
+.footer-icons {
+	color: #000;
+	transition: all 0.2s;
 }
 
-.contact-icon:hover {
-	color: #102ba5;
-	transition: all 0.1s;
+.footer-icons:hover {
+	color: #333;
 }

@@ -1,0 +1,17 @@
+title: AeroFusion's Blog
+description: Tech news and guides will be posted here.
+
+permalink: /blog/:year/:title/
+
+kramdown:
+  auto_ids: false
+
+plugins:
+   - jekyll-avatar
+   - jekyll-mentions
+   - jekyll-sitemap
+   - jekyll-feed
+   - jemoji
+
+collections:
+  - downloads
